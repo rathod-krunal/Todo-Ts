@@ -1,0 +1,16 @@
+{
+  "name": "yarn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private" : true,
+  "workspaces" : [
+    "client"
+  ],
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "client:dev:start" : "yarn workspace client dev"
+  }
+}

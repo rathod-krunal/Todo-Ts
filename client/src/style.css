@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 50px auto;
+}
+#TodoContainer{
+    display: flex;
+    justify-content: center;
+}
+#TodoContainer > input {
+    width: 30%;
+    padding: 8px;
+}
+#TodoContainer > button {
+    width: 7%;
+    cursor: pointer;
+
+}
+#TodoList{
+    position: relative;
+    top: 50px;
+}
+
+.TodosDiv {
+    padding: 5px;
+    border: 1px solid gray;
+    width: 30%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .chkBox {
+    width: 50px;
+  }
+  
+  .chkBox:checked + .span {
+    text-decoration: line-through;
+  }
+  .span {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .dltButton {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 3px;
+    width: 80px;
+    font-weight: 600;
+  }
+  
+  .dltButton:hover {
+    border: 1px solid red;
+    color: red;
+    padding: 0px;
+  }
+  
